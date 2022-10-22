@@ -51,6 +51,3 @@ class Animator:
         self.config_axes()
         display.display(self.fig)
         display.clear_output(wait=True)
-    
-    def show_figure(self):
-        plt.show()

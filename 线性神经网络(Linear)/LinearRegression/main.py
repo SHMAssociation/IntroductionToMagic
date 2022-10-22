@@ -1,6 +1,5 @@
 import random
 import torch
-from d2l import torch as d2l
 
 '''
 实现线性回归，包括数据流⽔线、模型、损失函数和⼩批量随机梯度下降优化器

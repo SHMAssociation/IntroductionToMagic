@@ -33,7 +33,6 @@ def updater(batch_size):
 
 # 定义训练
 def train(model, train_iter, loss, updater):
-
     # 将模型设置为训练模式
     if isinstance(model, torch.nn.Module):
         model.train()
